@@ -1,0 +1,30 @@
+{
+    "EnvLocal": {
+        "RootPathDir": "E:\\OTH_CODE\\DEV.AZURE.COM\\othdell210217gmailcom\\TestDeploy",
+        "maxNumberFileToSync": 1
+    },
+    "EnvAzure": {
+        "RootPathDir": "$Env:BUILD_SOURCESDIRECTORY",
+        "maxNumberFileToSync": -1
+    },
+    "EnvRunning": {
+        "RootPathDir": "",
+        "maxNumberFileToSync": 0
+    },
+    "Targets": [{
+        "KeyMail": "othdell210217gmailcom",
+        "GBucket": "othdell210217-1.appspot.com",
+        "GFBConnection": "https://othdell210217-1-default-rtdb.firebaseio.com|EReCTpyRhIKCBFVrzuhef6nUIf1ep6woy9N6Qk5q",
+        "GFBCheckExist": "https://othdell210217-2-default-rtdb.firebaseio.com|JjBhwSglNPmkvHOZD42hyShOdFFeARcXldtB80ik",
+        "MAzures": [{
+            "Token": "iuqbirna2fvktsofg77od6hdckgygq54p6orpyp7hl5m3tvk6h5q",
+            "Owner": "othdell210217",
+            "Project": "TestDeployPublicGit",
+            "Repo": "TestDeployPublicGit",
+            "Kind": "git"
+        }],
+        "RelativePathDirectory": "\\",
+        "SearchOptionIsAllDirectories": false,
+        "searchPattern": "*.dll|*.exe"
+    }]
+}
